@@ -25,8 +25,8 @@ app.get('/', function(req, res){
 })
 
 app.get("/test", (req, res)=>{
-        console.log("This from test module")
-        res.send("Test module")
+    console.log("This from test module")
+    res.send("Test module")
 })
 
 app.use(() =>{

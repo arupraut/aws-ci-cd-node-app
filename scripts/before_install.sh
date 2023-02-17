@@ -1,17 +1,15 @@
 #!/bin/bash
 
-# Install node.js
-sudo apt-get install python-software-properties -y
-sudo apt-add-repository ppa:chris-lea/node.js -y
-sudo apt-get update
-sudo apt-get install nodejs -y
+#_Change_Working_Directory
+cd /home/ubuntu/workspace/aws-ci-cd-node-app
 
-# Install nodemon
-# sudo npm install nodemon -g
+#_Update_&_Set_Node_Version
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+. ~/.nvm/nvm.sh
+nvm install --lts
 
-# Install forever module 
-# https://www.npmjs.com/package/forever
-sudo npm install forever -g
+#_Download_Node_&NPM
+#yum -y install nodejs npm
 
-# Clean working folder
-# sudo find /home/ubuntu/test -type f -delete
+#_Download_PM2
+npm install pm2@latest -g

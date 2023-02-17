@@ -14,5 +14,5 @@ cd /home/ubuntu/workspace/aws-ci-cd-node-app
 
 
 #Install_node_modules_&_Make_React_Build
-sudo npm install
+# sudo npm install
 #npm run build

@@ -12,4 +12,12 @@ nvm install --lts
 #yum -y install nodejs npm
 
 #_Download_PM2
-npm install pm2@latest -g
+#npm install pm2@latest -g
+
+DIR="/home/ubuntu/workspace/aws-ci-cd-node-app"
+if[ -d "$DIR" ]; then
+    echo "dir exists";
+else
+    echo "creating ${DIR} directory"
+    mkdir {DIR}
+

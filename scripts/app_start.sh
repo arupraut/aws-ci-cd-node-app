@@ -20,8 +20,9 @@ export NVM_DIR="$HOME/.nvm"
 #sudo ln -s /usr/local/lib/node /usr/lib/node
 #sudo ln -s /usr/local/bin/npm /usr/bin/npm
 #sudo ln -s /usr/local/bin/node-waf /usr/bin/node-wa
-sudo ln -s /home/ubuntu/.nvm/versions/node/v19.6.0/bin/node /usr/bin/node
 
 
-sudo npm install
+#sudo npm install
+sudo /usr/local/bin/node /home/ubuntu/workspace/aws-ci-cd-node-app/server.js
+
 pm2 start index.js --name Backend

@@ -7,7 +7,7 @@
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 . ~/.nvm/nvm.sh
 nvm install --lts
-nvm install node
+# nvm install node
 
 #_Download_Node_&NPM
 #yum -y install nodejs npm

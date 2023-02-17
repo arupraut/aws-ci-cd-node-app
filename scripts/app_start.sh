@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo chmod -R 777 /home/ubuntu/workspace/aws-ci-cd-node-app
+# sudo chmod -R 777 /home/ubuntu/workspace/aws-ci-cd-node-app
 
 #_Change_Working_Directory
 cd /home/ubuntu/workspace/aws-ci-cd-node-app
@@ -12,9 +12,9 @@ cd /home/ubuntu/workspace/aws-ci-cd-node-app
 #pm2 start index.js --name Backend
 
 # add npm and node to path
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/.nvm.sh" ] && \. "$NVM_DIR/.nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+#export NVM_DIR="$HOME/.nvm"
+#[ -s "$NVM_DIR/.nvm.sh" ] && \. "$NVM_DIR/.nvm.sh"
+#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 #sudo ln -s /usr/local/bin/node /usr/bin/node
 #sudo ln -s /usr/local/lib/node /usr/lib/node

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo chmod -R 777 /home/ubuntu/workspace/aws-ci-cd-node-app
+#sudo chmod -R 777 /home/ubuntu/workspace/aws-ci-cd-node-app
 
 #_Change_Working_Directory
 cd /home/ubuntu/workspace/aws-ci-cd-node-app

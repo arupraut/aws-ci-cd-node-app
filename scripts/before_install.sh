@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #_Change_Working_Directory
-cd /home/ubuntu/workspace/aws-ci-cd-node-app
+# cd /home/ubuntu/workspace/aws-ci-cd-node-app
 
 #_Update_&_Set_Node_Version
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
@@ -15,7 +15,7 @@ nvm install --lts
 #npm install pm2@latest -g
 
 DIR="/home/ubuntu/workspace/aws-ci-cd-node-app"
-if[ -d "$DIR" ]; then
+if [ -d "$DIR" ]; then
     echo "dir exists";
 else
     echo "creating ${DIR} directory"

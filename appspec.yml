@@ -4,6 +4,8 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/workspace/aws-ci-cd-node-app
+    overwrite: true
+file_exists_behavior: OVERWRITE
 
 permissions:
   - object: /

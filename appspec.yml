@@ -1,6 +1,9 @@
 version: 0.0
 os: linux
-
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
 files:
   - source: /
     destination: /home/ubuntu/workspace/aws-ci-cd-node-app

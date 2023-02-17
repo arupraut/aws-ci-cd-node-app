@@ -14,7 +14,7 @@ permissions:
     group: ubuntu
 
 hooks:
-  #ApplicationStop:
+  ApplicationStop:
     - location: scripts/app_stop.sh
       timeout: 300
       runas: ubuntu

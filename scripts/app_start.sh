@@ -22,6 +22,7 @@ cd /home/ubuntu/workspace/aws-ci-cd-node-app
 #sudo ln -s /usr/local/bin/node-waf /usr/bin/node-wa
 
 #nvm install node
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 ls -lts
 node -v

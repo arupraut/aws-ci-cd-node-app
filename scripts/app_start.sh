@@ -25,7 +25,7 @@ cd /home/ubuntu/workspace/aws-ci-cd-node-app
 
 ls -lts
 node -v
-# nvm --version
+nvm --version
 # npm -v
 npm install
 # sudo /usr/local/bin/node /home/ubuntu/workspace/aws-ci-cd-node-app/server.js

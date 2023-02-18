@@ -2,12 +2,14 @@
 
 #_Change_Working_Directory
 # cd /home/ubuntu/workspace/aws-ci-cd-node-app
-sudo chmod -R 777 /home/ubuntu/workspace/aws-ci-cd-node-app/scripts/*
+# sudo chmod -R 777 /home/ubuntu/workspace/aws-ci-cd-node-app/scripts/*
 
 #_Update_&_Set_Node_Version
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-. ~/.nvm/nvm.sh
-nvm install --lts
+# curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+# . ~/.nvm/nvm.sh
+# nvm install --lts
+
+
 # nvm install node
 
 #_Download_Node_&NPM

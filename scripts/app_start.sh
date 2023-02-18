@@ -29,8 +29,9 @@ nvm install --lts
 ls -lts
 node -v
 nvm --version
-# npm -v
-npm install
-# sudo /usr/local/bin/node /home/ubuntu/workspace/aws-ci-cd-node-app/server.js
+npm -v
 
+
+npm install
+pm2 stop Backend
 pm2 start index.js --name Backend

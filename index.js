@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 app.get('/', function(req, res){
-    res.send("App is running 2");
+    res.send("App is running 3");
 })
 
 app.get("/test", (req, res)=>{
